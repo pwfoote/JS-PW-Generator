@@ -27,35 +27,38 @@ while (passwordAmount < 8 || passwordAmount > 128){
   alert("Password Word Must Be Betwen 8-128 Characters");
   passwordAmount = prompt("Character Amount: choose between 18-124 characters.");
 }
-debugger;
-let str = "" 
+// debugger;
+let str = ""
 
 while(str.length < passwordAmount){
-
+  
   if(randomLowerChar){
     str += getRandomLower()
   }
-  
+  if(passwordAmount <= str.length) {break;}
+
   if(randomUpperChar){
     str += getRandomUpper()
   }
+  if(passwordAmount <= str.length) {break;}
   
   if(randomNumberChar){
     str += getRandomNumber()
   }
+  if(passwordAmount <= str.length) {break;}
   
   if(randomSymbolChar){
     str += getRandomSymbol()
   }
-
-
+  if(passwordAmount <= str.length) {break;}
+ 
 };
 
-
+//console.log(str.length);
 
 //Generate Password
 function generatePassword(){
-  return str 
+  return str
 }
 
 
