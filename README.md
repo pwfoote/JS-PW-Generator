@@ -38,5 +38,5 @@ A password generator able develop a password for a user's password requirements.
     "Keep it Secret. Keep it Safe."
                 -Gandalf the Grey
 
-## ScreenShot
-![ScreenShot of Password Generator](images/PWGenerator.png) 
+## ScreenShot 
+https://github.com/pwfoote/js-pw-generator/blob/main/Images/PWGenerator.png
