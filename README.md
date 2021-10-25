@@ -39,4 +39,4 @@ A password generator able develop a password for a user's password requirements.
                 -Gandalf the Grey
 
 ## ScreenShot
-<img src="./images/PWGenerator.png"/>
+![ScreenShot of Password Generator](images/PWGenerator.png) 
