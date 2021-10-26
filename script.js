@@ -1,4 +1,10 @@
-// Assignment code here
+
+//console.log(str.length);
+
+//Generate Password
+function generatePassword(){
+
+  // Assignment code here
 window.alert("Please choose your password criteria.")
 
 
@@ -53,11 +59,6 @@ while(str.length < passwordAmount){
   if(passwordAmount <= str.length) {break;}
  
 };
-
-//console.log(str.length);
-
-//Generate Password
-function generatePassword(){
   return str
 }
 
@@ -67,7 +68,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
+  var password = generatePassword()
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
